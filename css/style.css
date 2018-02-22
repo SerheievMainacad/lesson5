@@ -1,4 +1,4 @@
-h2{
+/*h2{
 	font-size: 50px;
 	color: green;
 }
@@ -15,3 +15,38 @@ h2{
 	color: blue;
 }
 
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+section{
+	width: 100%;/*px/%/vw*/
+	height: 100vh;/*px/%/vh*/
+	background-color: lightgreen;
+}
+section#header{
+	width: 100%;/*px/%/vw*/
+	height: 100vh;/*px/%/vh*/
+	background-color: lightgreen;
+	line-height: 100vh;
+	background-image: url('http://wallpaperstock.net/planet-and-the-field_wallpapers_12601_1024x768.jpg');
+	background-size: cover;/*100% 100%*/
+	background-repeat: no-repeat;
+	background-position: center;/*top, left, right, bottom*/
+	background-attachment: fixed;
+}
+#header h1{
+	/*font: font-style font-variant font-weight font-size/line-height font-family|caption|icon|menu|message-box|small-caption|status-bar|initial|inherit;;*/
+	/*font: 15px/30px 'Arial', ;*/
+	font-size: 75px;/*px/em/rem/%/vh*/
+	font-weight: normal;/*normal/bold/semi-bold*/
+	font-family: 'Arial';
+	font-variant: small-caps;/*small-caps*/
+	font-style: italic;/*normal, monospace*/
+	color: red;
+	text-align: center;/*left|right|center|justify*/
+	text-decoration: line-through;/*overline,underline, line-through*/
+	text-transform: capitalize;/*uppercase, lowercase, capitalize*/
+	text-indent: 100px;/*px|em|%|vw*/
+}
